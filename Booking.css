@@ -1,0 +1,155 @@
+
+.booking-page {
+  min-height: 100vh;
+  background: #f5f3f2;
+  padding: 0 15px;
+}
+
+.devotee-container {
+  max-width: 750px;
+  margin: 0 auto;
+  background: white;
+  min-height: 100vh;
+}
+
+.devotee-header {
+  background: #a31300;
+  color: white;
+  padding: 22px 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.devotee-header h2 {
+  font-family: Georgia, serif;
+  font-size: 22px;
+  margin: 0;
+}
+
+.devotee-header button {
+  background: #b83b2c;
+  border: none;
+  color: white;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.devotee-content {
+  padding: 25px 28px;
+}
+
+.change-package {
+  color: #a31300;
+  border: none;
+  background: none;
+  font-size: 14px;
+  margin-bottom: 22px;
+  cursor: pointer;
+}
+
+.selected-puja {
+  background: #fff5f1;
+  border: 1px solid #f3d7ce;
+  border-radius: 12px;
+  padding: 17px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+  gap: 12px;
+}
+
+.selected-puja h4 {
+  margin: 0 0 7px;
+  font-family: Georgia, serif;
+}
+
+.selected-puja p {
+  margin: 0;
+  color: #777;
+  font-size: 13px;
+}
+
+.selected-puja strong {
+  color: #a31300;
+  white-space: nowrap;
+}
+
+.devotee-content h3 {
+  font-family: Georgia, serif;
+  margin-bottom: 22px;
+}
+
+.devotee-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.devotee-content label {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0 0 8px;
+}
+
+.devotee-content input {
+  width: 100%;
+  box-sizing: border-box;
+  height: 68px;
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  padding: 15px;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  margin-bottom: 19px;
+  outline-color: #a31300;
+}
+
+.devotee-continue {
+  width: 100%;
+  height: 56px;
+  border: none;
+  border-radius: 12px;
+  background: #00b36b;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.devotee-continue span {
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.booking-note {
+  text-align: center;
+  font-family: Georgia, serif;
+  color: #888;
+  font-size: 12px;
+  margin-top: 13px;
+}
+
+.booking-error {
+  padding: 40px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .devotee-content {
+    padding: 22px 16px;
+  }
+
+  .devotee-header {
+    padding: 20px 16px;
+  }
+
+  .devotee-header h2 {
+    font-size: 19px;
+  }
+}
